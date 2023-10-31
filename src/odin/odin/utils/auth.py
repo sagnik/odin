@@ -2,7 +2,7 @@
 import os
 import requests
 from prompt_toolkit import prompt
-from baseline.utils import str_file
+from eight_mile.utils import str_file
 from odin import LOGGER
 
 

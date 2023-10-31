@@ -2,7 +2,8 @@
 import os
 import requests
 from prompt_toolkit import prompt
-from baseline.utils import str_file, get_console_logger
+from eight_mile.utils import str_file
+from baseline.utils import get_console_logger
 
 ODIN_AUTH_LOGGER = get_console_logger('odin', env_key='ODIN_LOG_LEVEL')
 

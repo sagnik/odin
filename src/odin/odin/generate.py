@@ -12,7 +12,8 @@ from copy import deepcopy
 from itertools import chain
 from typing import Dict, Union, Optional, List, Tuple, Any
 
-from baseline.utils import read_config_file, str2bool, listify, import_user_module, idempotent_append
+from eight_mile.utils import read_config_file, str2bool, listify, idempotent_append
+from baseline.utils import import_user_module
 from odin import Path
 from odin.utils.yaml_utils import write_yaml
 

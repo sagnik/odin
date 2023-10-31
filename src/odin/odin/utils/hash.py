@@ -6,7 +6,7 @@ from hashlib import sha1
 from itertools import chain
 from functools import partial
 from typing import List, Union, BinaryIO, Any, Optional
-from baseline.utils import str_file, listify
+from eight_mile.utils import str_file, listify
 from odin import LOGGER
 
 

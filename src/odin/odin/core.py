@@ -9,7 +9,7 @@ from string import Template
 from typing import Dict, Union, List, Tuple, Any, Optional
 import yaml
 import shortid
-from baseline.utils import listify, is_sequence
+from eight_mile.utils import listify, is_sequence
 from odin.dag import Graph
 
 
