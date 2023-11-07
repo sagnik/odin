@@ -39,7 +39,7 @@ setup(
         'requests-async',
         'requests',
         'pandas',
-        'mead-baseline >= 2.4.1',
+        'mead-baseline @ git+https://github.com/sagnik/baseline.git@meadml',
         'mead-xpctl-client',
     ],
     extras_require={'test': ['pytest']},
