@@ -39,7 +39,7 @@ setup(
         'requests-async',
         'requests',
         'pandas',
-        'mead-baseline >= 2.0.1',
+        'mead-baseline >= 2.4.1',
         'mead-xpctl-client',
     ],
     extras_require={'test': ['pytest']},
