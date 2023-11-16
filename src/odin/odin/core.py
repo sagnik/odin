@@ -10,6 +10,7 @@ from typing import Dict, Union, List, Tuple, Any, Optional
 import yaml
 import shortid
 from eight_mile.utils import listify, is_sequence
+import yamlenv
 from odin.dag import Graph
 
 
@@ -245,7 +246,7 @@ def read_pipeline_config(  # pylint: disable=too-many-locals
     if os.path.isfile(template_file):
         LOGGER.info("Loading file: %s", template_file)
         with open(template_file) as read_file:
-            flow = yaml.load(read_file, Loader=yaml.FullLoader)
+            flow = yamlenv.load(read_file)
     else:
         LOGGER.info("Loading YAML string: ...%s", format(template_file[-20:]))
         flow = yaml.load(template_file, Loader=yaml.FullLoader)

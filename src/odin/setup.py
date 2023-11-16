@@ -41,6 +41,7 @@ setup(
         'pandas',
         'mead-baseline @ git+https://github.com/sagnik/baseline.git@meadml',
         'mead-xpctl-client',
+        'yamlenv @ git+https://git@github.com/sagnik/yamlenv.git@master'
     ],
     extras_require={'test': ['pytest']},
     entry_points={
