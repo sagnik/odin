@@ -39,7 +39,7 @@ setup(
         'requests-async',
         'requests',
         'pandas',
-        'mead-baseline @ git+https://github.com/sagnik/baseline.git@meadml',
+        'mead-baseline @ git+https://github.com/sagnik/baseline.git@v2.5.1-beta',
         'mead-xpctl-client',
         'yamlenv @ git+https://git@github.com/sagnik/yamlenv.git@master'
     ],
